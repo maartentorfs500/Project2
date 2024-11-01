@@ -1,0 +1,27 @@
+.contact-from{
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label
+{
+    margin-bottom: 5px;
+}
+
+input, textarea, select
+{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+}

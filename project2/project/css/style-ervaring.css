@@ -1,0 +1,18 @@
+h2
+{
+    color: black;
+    border-bottom: 3px solid #f6feaa;
+    text-align: center;
+}
+
+th, td
+{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+td
+{
+    vertical-align: top;
+}

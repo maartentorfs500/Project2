@@ -1,0 +1,44 @@
+.introductie
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+
+.introductie text
+{
+    flex: 3;
+}
+
+.introductie h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.introductie p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.image
+{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
